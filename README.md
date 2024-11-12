@@ -1,5 +1,5 @@
 --carregar biblioteca
-
+loadstring(game:HttpGet("https://rawscripts.net/raw/Attack-on-Titan-Revolution-Tekkit-aotr-Free-Premium-21381"))()
 
 local Window = Fluent:CreateWindow({
     Title = "Baruk " .. Fluent.Version,
@@ -14,4 +14,4 @@ local Tabs = {
 Tabs.Main:AddParagraph({ Title = "Baruk o mais belo", Content = "This is a paragraph.\nSecond line!" })
 --botôes
 Tabs.Main:AddButton({ Title = "Baruk o mais belo", Callback = function()
-     loadstring(game:HttpGet("https://github.com/Hosvile/InfiniX/releases/latest/download/main.lua", true)) end })
+     loadstring(game:HttpGet("loadstring(game:HttpGet("https://rawscripts.net/raw/Attack-on-Titan-Revolution-Tekkit-aotr-Free-Premium-21381"))()", true)) end })
