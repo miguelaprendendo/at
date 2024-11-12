@@ -1,5 +1,5 @@
 --carregar biblioteca
-loadstring(game:HttpGet("https://rawscripts.net/raw/Attack-on-Titan-Revolution-Tekkit-aotr-Free-Premium-21381"))()
+
 
 local Window = Fluent:CreateWindow({
     Title = "Baruk " .. Fluent.Version,
